@@ -4,3 +4,4 @@ services:
     image: odoo:15.0
     ports:
       - "8069:8069"
+    command: [-u all]
